@@ -1,0 +1,17 @@
+s_list=[]
+a_list=[]
+c_list=[]
+sname=input("Enter your name : ")
+age=int(input("Enter your age : "))
+city=input("Enter your City : " )
+while sname!="stop" and age!=0 and city!="":
+    s_list.append(sname)
+    sname=input("Enter Your Name : ")
+    a_list.append(age)
+    age=int(input("Enter your age : "))
+    c_list.append(city)
+    city=input("Enter your City : ")
+print("Show Datas")
+for i in range(0,len(s_list)):
+    print("no","age","city")
+    print((i+1),s_list[i]," ",(a_list[i])," ",(c_list[i]))
